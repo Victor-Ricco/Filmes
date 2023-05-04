@@ -1,0 +1,32 @@
+@import '../abstract/variaveis';
+
+#pesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $cor-primaria;
+    border-radius: 10px;
+    height: 8%;
+    &:hover, &:focus-within {
+        box-shadow: 1px 1px 8px 1px black;
+        outline: none;
+    }
+    input {
+        width: 90%;
+        height: 80%;
+        border-style: none;
+        background-color: $cor-primaria;
+        outline: none;
+        font-size: $tamanho-do-texto / 2;
+        color: $cor-secundaria;
+    }
+    button {
+        border-style: none;
+        outline: none;
+        background-color: $cor-primaria;
+        font-size: $tamanho-do-texto / 2;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

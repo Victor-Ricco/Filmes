@@ -1,0 +1,22 @@
+@import '../abstract/variaveis';
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgb(60,72,107);
+    background: linear-gradient(to bottom, $cor-terciaria 0, $cor-terciaria 50%, $cor-quintenaria 50%)
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 80%;
+    width: 60vw;
+    background-color: whitesmoke;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: transparent;
+}

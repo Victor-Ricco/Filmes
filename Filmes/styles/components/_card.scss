@@ -1,0 +1,58 @@
+@import '../abstract/variaveis';
+
+#card {
+    background-color: $cor-primaria;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    img {
+        border-radius: 10px;
+    }
+
+    .card__top {
+        display: flex;
+        gap: 3rem;
+        height: 65%;
+    }
+
+    .content-left {
+        display: flex;
+        flex-direction: column;
+        gap: 2.2rem;
+        overflow: auto;
+
+        .flex {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 10px;
+        }
+
+        .titulo {
+            margin-bottom: 0.5rem;
+        }
+
+        h1 {
+            font-size: $tamanho-do-texto;
+            color: $cor-terciaria;
+        }
+        h2 {
+            font-size: $tamanho-do-texto / 1.5;
+            color: $cor-secundaria;
+            font-weight: bold;
+            align-self: baseline;
+        }
+
+        p {
+            font-size: $tamanho-do-texto / 2.5;
+            color: $cor-secundaria;
+            align-self: baseline;
+        }
+    }
+}

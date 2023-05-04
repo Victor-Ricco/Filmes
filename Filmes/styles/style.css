@@ -1,0 +1,122 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: rgb(60, 72, 107);
+  background: linear-gradient(to bottom, #F9D949 0, #F9D949 50%, #131129 50%);
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: 80%;
+  width: 60vw;
+  background-color: whitesmoke;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: transparent;
+}
+
+#pesquisa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3C486B;
+  border-radius: 10px;
+  height: 8%;
+}
+#pesquisa:hover, #pesquisa:focus-within {
+  box-shadow: 1px 1px 8px 1px black;
+  outline: none;
+}
+#pesquisa input {
+  width: 90%;
+  height: 80%;
+  border-style: none;
+  background-color: #3C486B;
+  outline: none;
+  font-size: 1.5rem;
+  color: #F0F0F0;
+}
+#pesquisa button {
+  border-style: none;
+  outline: none;
+  background-color: #3C486B;
+  font-size: 1.5rem;
+}
+#pesquisa button:hover {
+  cursor: pointer;
+}
+
+#card {
+  background-color: #3C486B;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+#card img {
+  border-radius: 10px;
+}
+#card .card__top {
+  display: flex;
+  gap: 3rem;
+  height: 65%;
+}
+#card .content-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+  overflow: auto;
+}
+#card .content-left .flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+#card .content-left .titulo {
+  margin-bottom: 0.5rem;
+}
+#card .content-left h1 {
+  font-size: 3rem;
+  color: #F9D949;
+}
+#card .content-left h2 {
+  font-size: 2rem;
+  color: #F0F0F0;
+  font-weight: bold;
+  align-self: baseline;
+}
+#card .content-left p {
+  font-size: 1.2rem;
+  color: #F0F0F0;
+  align-self: baseline;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: auto;
+  background-color: #131129;
+  border-radius: 10px;
+  padding: 10px;
+  height: 25%;
+}
+footer h2 {
+  font-size: 2rem;
+  color: #F0F0F0;
+  font-weight: bold;
+  align-self: baseline;
+}
+footer p {
+  font-size: 1rem;
+  color: #F0F0F0;
+}/*# sourceMappingURL=style.css.map */
